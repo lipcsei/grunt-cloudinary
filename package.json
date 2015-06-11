@@ -1,0 +1,44 @@
+{
+  "name": "grunt-cloudinary",
+  "description": "Grunt task that upload images to Cloudinary",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lipcsei/grunt-cloudinary",
+  "author": {
+    "name": "Sandor Lipcsei",
+    "email": "sandor.lipcsei@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lipcsei/grunt-cloudinary"
+  },
+  "bugs": {
+    "url": "https://github.com/lipcsei/grunt-cloudinary/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lipcsei/grunt-cloudinary/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "cloudinary",
+    "json",
+    "google",
+    "convert"
+  ],
+  "dependencies": {
+    "cloudinary": "^1.2.1"
+  }
+}
